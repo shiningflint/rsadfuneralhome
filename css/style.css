@@ -106,8 +106,7 @@ body {
 /*LAYANAN*/
 .lyn {
   box-sizing: border-box;
-  padding: 4%;
-  padding-top: 12%;
+  padding: 12% 4%;
   background-color: #f4f4f4; }
 
 .lyn-title {
@@ -193,7 +192,7 @@ body {
 
   /*LAYANAN*/
   .lyn {
-    padding: 48px 0; }
+    padding: 48px 0 16px 0; }
 
   .lyn-title {
     margin-bottom: 32px; }
