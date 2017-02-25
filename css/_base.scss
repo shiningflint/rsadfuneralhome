@@ -1,0 +1,86 @@
+/**VARIABLES**/
+
+
+body {
+	line-height: 1.4;
+	font-size: 16px;
+}
+
+/*TOP AREA*/
+.top-logo {
+	text-align: center;
+}
+.top-info {
+	text-align: center;
+}
+.top {
+	position: relative;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.top-screen {
+	position: absolute;
+	top: 0;bottom: 0;right: 0;left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.top-content{
+	position: relative;
+	box-sizing: border-box;
+	padding: 12%;
+}
+.top-logo {
+	text-align: center;
+	margin-bottom: 12%;
+	> img {
+		width: 80%;
+	}
+}
+.top-info {
+	color: white;
+	box-sizing: border-box;
+	padding: 4%;
+	border: 1px solid white;
+	border-radius: 6px;
+	a {
+		color: white;
+	}
+}
+.top-info-p {
+	margin-top: 8%;
+	a {
+		display: inline-block;
+		vertical-align: middle;
+		box-sizing: border-box;
+		padding: 2%;
+		width: 100%;
+		background-color: white;
+		color: #545454;
+		text-decoration: none;
+		font-size: 1.414em;
+		border-radius: 4px;
+		border: 1px solid white;
+	}
+	&.fax {
+		a {
+			width: auto;
+			color: white;
+			background-color: transparent;
+			font-size: 1em;
+			border: none;
+		}
+	}
+}
+
+/*LAYANAN*/
+.lyn {
+	box-sizing: border-box;
+	padding: 4%;
+	background-color: #f4f4f4;
+}
+.lyn-title {
+	font-size: 1.999em;
+	color: #545454;
+	text-align: center;
+}
