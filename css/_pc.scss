@@ -36,4 +36,53 @@
 			}
 		}
 	}
+	
+	/*LAYANAN*/
+	.lyn {
+		padding: 48px 0;
+	}
+	.lyn-title {
+		margin-bottom: 32px;
+	}
+	.lynwrap{
+		max-width: 960px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.lyn-item {
+		display: inline-block;
+		vertical-align: top;
+		width: 36%;
+		box-sizing: border-box;
+		margin-bottom: 32px;
+		&:nth-child(odd){
+			margin-right: 16px;
+		}
+		&:nth-child(even){
+			margin-left: 16px;
+		}
+	}
+	
+	/*LAINNYA*/
+	.lnn {
+		padding: 32px 0;
+	}
+	.lnn-title {
+		text-align: left;
+		max-width: 960px;
+		margin: 0 auto 16px auto;
+		box-sizing: border-box;
+		padding: 0 16px;
+	}
+	.lnn-ul {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	.lnn-item {
+		display: inline-block;
+		vertical-align: top;
+		width: 20%;
+		box-sizing: border-box;
+		padding: 0 16px;
+	}
 }

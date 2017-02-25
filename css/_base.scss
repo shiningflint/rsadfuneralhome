@@ -77,10 +77,63 @@ body {
 .lyn {
 	box-sizing: border-box;
 	padding: 4%;
+	padding-top: 12%;
 	background-color: #f4f4f4;
 }
 .lyn-title {
 	font-size: 1.999em;
 	color: #545454;
 	text-align: center;
+	margin-bottom: 8%;
+}
+.lyn-item {
+	border-radius: 6px;
+	overflow: hidden;
+	background-color: white;
+	margin-bottom: 8%;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.lyn-img {
+	> a {
+		> img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+.lyn-desc {
+	> a {
+		display: inline-block;
+		vertical-align: middle;
+		color: #545454;
+		text-decoration: none;
+		box-sizing: border-box;
+		padding: 4%;
+		font-size: 1.414em;
+	}
+}
+
+/*LAINNYA*/
+.lnn {
+	box-sizing: border-box;
+	padding: 8% 4%;
+	background-color: #222;
+	color: #e4e4e4;
+}
+.lnn-title {
+	font-size: 1.414em;
+	text-align: center;
+	margin-bottom: 4%;
+}
+.lnn-item {
+	margin-bottom: 16px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	> p {
+		font-size: 1em;
+	}
 }

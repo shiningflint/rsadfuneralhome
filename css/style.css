@@ -107,12 +107,55 @@ body {
 .lyn {
   box-sizing: border-box;
   padding: 4%;
+  padding-top: 12%;
   background-color: #f4f4f4; }
 
 .lyn-title {
   font-size: 1.999em;
   color: #545454;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 8%; }
+
+.lyn-item {
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 8%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); }
+  .lyn-item:last-child {
+    margin-bottom: 0; }
+
+.lyn-img > a > img {
+  width: 100%;
+  height: auto; }
+
+.lyn-desc > a {
+  display: inline-block;
+  vertical-align: middle;
+  color: #545454;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 4%;
+  font-size: 1.414em; }
+
+/*LAINNYA*/
+.lnn {
+  box-sizing: border-box;
+  padding: 8% 4%;
+  background-color: #222;
+  color: #e4e4e4; }
+
+.lnn-title {
+  font-size: 1.414em;
+  text-align: center;
+  margin-bottom: 4%; }
+
+.lnn-item {
+  margin-bottom: 16px; }
+  .lnn-item:last-child {
+    margin-bottom: 0; }
+  .lnn-item > p {
+    font-size: 1em; }
 
 @media (min-width: 700px) {
   .top-content {
@@ -146,6 +189,51 @@ body {
       transition: color .2s, background-color .2s; }
       .top-info-p a:hover {
         color: white;
-        background-color: transparent; } }
+        background-color: transparent; }
+
+  /*LAYANAN*/
+  .lyn {
+    padding: 48px 0; }
+
+  .lyn-title {
+    margin-bottom: 32px; }
+
+  .lynwrap {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center; }
+
+  .lyn-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 36%;
+    box-sizing: border-box;
+    margin-bottom: 32px; }
+    .lyn-item:nth-child(odd) {
+      margin-right: 16px; }
+    .lyn-item:nth-child(even) {
+      margin-left: 16px; }
+
+  /*LAINNYA*/
+  .lnn {
+    padding: 32px 0; }
+
+  .lnn-title {
+    text-align: left;
+    max-width: 960px;
+    margin: 0 auto 16px auto;
+    box-sizing: border-box;
+    padding: 0 16px; }
+
+  .lnn-ul {
+    max-width: 960px;
+    margin: 0 auto; }
+
+  .lnn-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 16px; } }
 
 /*# sourceMappingURL=style.css.map */
