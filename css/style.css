@@ -307,6 +307,49 @@ body {
     vertical-align: top;
     width: 20%;
     box-sizing: border-box;
-    padding: 0 16px; } }
+    padding: 0 16px; }
+
+  /*AKSES*/
+  .acs {
+    padding: 48px 16px; }
+
+  .acs-title {
+    margin-bottom: 32px; }
+
+  .acs-content {
+    max-width: 960px;
+    margin: 0 auto; }
+
+  .acs-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 16px; }
+
+  .acs-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%; }
+
+  .acs-tel {
+    margin-top: 16px;
+    padding: 16px; }
+
+  .acs-tel-mt {
+    margin-top: 16px; }
+
+  .acs-mapbtn {
+    margin-top: 16px;
+    margin-bottom: 16px; }
+    .acs-mapbtn > a {
+      padding: 8px 16px; }
+
+  /*FOOTER*/
+  .ftr {
+    padding: 32px 16px; }
+
+  .ftr-img > img {
+    width: 300px; } }
 
 /*# sourceMappingURL=style.css.map */
