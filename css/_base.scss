@@ -136,3 +136,83 @@ body {
 		font-size: 1em;
 	}
 }
+
+/*AKSES*/
+.acs {
+	box-sizing: border-box;
+	padding: 12% 4%;
+	color: #545454;
+}
+.acs-title {
+	text-align: center;
+	font-size: 1.999em;
+	margin-bottom: 8%;
+}
+.acs-mapwrap {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+	height: 0;
+	width: 100%;
+	> iframe {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+.acs-mapbtn {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	> a {
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+		color: white;
+		background-color: #5f84f2;
+		box-sizing: border-box;
+		padding: 2% 4%;
+		border-radius: 4px;
+	}
+}
+.acs-right {
+	text-align: center;
+}
+.acs-tel {
+	margin-top: 4%;
+	box-sizing: border-box;
+	padding: 4%;
+	border: 1px solid #545454;
+	border-radius: 4px;
+	a {
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+		color: white;
+		background-color: #545454;
+		border: 1px solid #545454;
+		border-radius: 4px;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 2% 0;
+	}
+}
+.acs-tel-mt {
+	margin-top: 4%;
+}
+
+/*FOOTER*/
+.ftr {
+	background-color: #efefef;
+	box-sizing: border-box;
+	padding: 8% 4%;
+	box-shadow: inset 0 5px 20px -10px;
+}
+.ftr-img {
+	text-align: center;
+	> img {
+		width: 60%;
+		height: auto;
+	}
+}
