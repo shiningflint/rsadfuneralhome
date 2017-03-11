@@ -14,8 +14,8 @@
 		<div class="top">
 			<div class="top-screen"></div>
 			<div class="top-content">
-				<p class="top-logo"><img src="img/logo.png" alt="Rumah Duka RSAD"></p>
-				<div class="top-info">
+				<p class="top-logo center"><img src="img/logo.png" alt="Rumah Duka RSAD"></p>
+				<div class="top-info center">
 					<p class="top-info-addr">PB. Sudirman Rd. No.1<br>Denpasar - Bali</p>
 					<div class="top-info-pwrap">
 						<div class="top-info-p">
@@ -32,6 +32,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="dbtn center"><button id="mail" class="mail"><img src="img/mail_icon.png" alt="mail">&nbsp;Contact</button></div>
 			</div>
 		</div>
 		<!--/TOP AREA-->
@@ -111,6 +112,21 @@
 			</div>
 		</div>
 		<!--/AKSES-->
+		
+		<!--KONTAK-->
+		<div class="contact">
+			<h2 class="contact-title center">Contact</h2>
+			<div class="contact-formwrap">
+				<form id="contact-form" action="" class="contact-form">
+					<p><input name="email" id="email" type="text" placeholder="Your Email"></p>
+					<p><textarea name="mcontent" id="mcontent" placeholder="What can we help you?" cols="30" rows="10"></textarea></p>
+					<p>
+						<button id="send" type="submit" class="send">Send</button>
+					</p>
+				</form>
+			</div>
+		</div>
+		<!--/KONTAK-->
 		
 		<!--FOOTER-->
 		<footer class="ftr">

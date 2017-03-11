@@ -36,6 +36,12 @@
 			}
 		}
 	}
+	.dbtn {
+		margin: 32px 0;
+	}
+	.mail {
+		padding: 8px 16px;
+	}
 	
 	/*LAYANAN*/
 	.lyn {
@@ -53,7 +59,6 @@
 		display: inline-block;
 		vertical-align: top;
 		width: 36%;
-		box-sizing: border-box;
 		margin-bottom: 32px;
 		&:nth-child(odd){
 			margin-right: 16px;
@@ -71,7 +76,6 @@
 		text-align: left;
 		max-width: 960px;
 		margin: 0 auto 16px auto;
-		box-sizing: border-box;
 		padding: 0 16px;
 	}
 	.lnn-ul {
@@ -82,7 +86,6 @@
 		display: inline-block;
 		vertical-align: top;
 		width: 20%;
-		box-sizing: border-box;
 		padding: 0 16px;
 	}
 	
@@ -101,7 +104,6 @@
 		display: inline-block;
 		vertical-align: top;
 		width: 50%;
-		box-sizing: border-box;
 		padding: 0 16px;
 	}
 	.acs-left {
@@ -122,6 +124,12 @@
 		> a {
 			padding: 8px 16px;
 		}
+	}
+	
+	/*CONTACT*/
+	.contact-formwrap {
+		max-width: 960px;
+		margin: 0 auto;
 	}
 	
 	/*FOOTER*/

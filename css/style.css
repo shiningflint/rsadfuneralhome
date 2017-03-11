@@ -36,17 +36,21 @@ table {
   border-spacing: 0; }
 
 /**VARIABLES**/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   line-height: 1.4;
   font-size: 16px; }
 
+/*UTILITIES*/
+.center {
+  text-align: center; }
+
 /*TOP AREA*/
-.top-logo {
-  text-align: center; }
-
-.top-info {
-  text-align: center; }
-
 .top {
   position: relative;
   background-image: url(../img/background.jpg);
@@ -64,7 +68,6 @@ body {
 
 .top-content {
   position: relative;
-  box-sizing: border-box;
   padding: 12%; }
 
 .top-logo {
@@ -75,7 +78,6 @@ body {
 
 .top-info {
   color: white;
-  box-sizing: border-box;
   padding: 4%;
   border: 1px solid white;
   border-radius: 6px; }
@@ -87,7 +89,6 @@ body {
   .top-info-p a {
     display: inline-block;
     vertical-align: middle;
-    box-sizing: border-box;
     padding: 2%;
     width: 100%;
     background-color: white;
@@ -103,9 +104,25 @@ body {
     font-size: 1em;
     border: none; }
 
+.dbtn {
+  margin: 8% 0; }
+
+.mail {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2% 4%;
+  background-color: white;
+  border: 1px solid white;
+  border-style: none;
+  border-radius: 6px;
+  font-size: 1.414em;
+  cursor: pointer; }
+  .mail > img {
+    vertical-align: middle;
+    width: 30px; }
+
 /*LAYANAN*/
 .lyn {
-  box-sizing: border-box;
   padding: 12% 4%;
   background-color: #f4f4f4; }
 
@@ -133,13 +150,11 @@ body {
   vertical-align: middle;
   color: #545454;
   text-decoration: none;
-  box-sizing: border-box;
   padding: 4%;
   font-size: 1.414em; }
 
 /*LAINNYA*/
 .lnn {
-  box-sizing: border-box;
   padding: 8% 4%;
   background-color: #222;
   color: #e4e4e4; }
@@ -158,7 +173,6 @@ body {
 
 /*AKSES*/
 .acs {
-  box-sizing: border-box;
   padding: 12% 4%;
   color: #545454; }
 
@@ -189,7 +203,6 @@ body {
     text-decoration: none;
     color: white;
     background-color: #5f84f2;
-    box-sizing: border-box;
     padding: 2% 4%;
     border-radius: 4px; }
 
@@ -198,7 +211,6 @@ body {
 
 .acs-tel {
   margin-top: 4%;
-  box-sizing: border-box;
   padding: 4%;
   border: 1px solid #545454;
   border-radius: 4px; }
@@ -211,16 +223,38 @@ body {
     border: 1px solid #545454;
     border-radius: 4px;
     width: 100%;
-    box-sizing: border-box;
     padding: 2% 0; }
 
 .acs-tel-mt {
   margin-top: 4%; }
 
+/*CONTACT*/
+.contact {
+  padding: 4%;
+  background-color: #545454; }
+
+.contact-title {
+  font-size: 1.618em;
+  color: white; }
+
+.contact-form > p {
+  margin-bottom: 4%; }
+  .contact-form > p:last-child {
+    margin-bottom: 0; }
+.contact-form input[type="text"] {
+  width: 100%;
+  padding: 2%;
+  border-radius: 4px;
+  border: 1px solid #545454; }
+.contact-form textarea {
+  border: 1px solid #545454;
+  border-radius: 4px;
+  padding: 2%;
+  width: 100%; }
+
 /*FOOTER*/
 .ftr {
   background-color: #efefef;
-  box-sizing: border-box;
   padding: 8% 4%;
   box-shadow: inset 0 5px 20px -10px; }
 
@@ -264,6 +298,12 @@ body {
         color: white;
         background-color: transparent; }
 
+  .dbtn {
+    margin: 32px 0; }
+
+  .mail {
+    padding: 8px 16px; }
+
   /*LAYANAN*/
   .lyn {
     padding: 48px 0 16px 0; }
@@ -280,7 +320,6 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 36%;
-    box-sizing: border-box;
     margin-bottom: 32px; }
     .lyn-item:nth-child(odd) {
       margin-right: 16px; }
@@ -295,7 +334,6 @@ body {
     text-align: left;
     max-width: 960px;
     margin: 0 auto 16px auto;
-    box-sizing: border-box;
     padding: 0 16px; }
 
   .lnn-ul {
@@ -306,7 +344,6 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    box-sizing: border-box;
     padding: 0 16px; }
 
   /*AKSES*/
@@ -324,7 +361,6 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 50%;
-    box-sizing: border-box;
     padding: 0 16px; }
 
   .acs-left {
@@ -344,6 +380,11 @@ body {
     margin-bottom: 16px; }
     .acs-mapbtn > a {
       padding: 8px 16px; }
+
+  /*CONTACT*/
+  .contact-formwrap {
+    max-width: 960px;
+    margin: 0 auto; }
 
   /*FOOTER*/
   .ftr {
