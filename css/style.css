@@ -383,8 +383,15 @@ body {
 
   /*CONTACT*/
   .contact-formwrap {
-    max-width: 960px;
+    max-width: 500px;
     margin: 0 auto; }
+
+  .contact-form input[type="text"] {
+    padding: 8px; }
+  .contact-form textarea {
+    padding: 8px; }
+  .contact-form > p {
+    margin-bottom: 16px; }
 
   /*FOOTER*/
   .ftr {

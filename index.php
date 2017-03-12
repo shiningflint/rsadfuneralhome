@@ -114,7 +114,7 @@
 		<!--/AKSES-->
 		
 		<!--KONTAK-->
-		<div class="contact">
+		<div id="contact" class="contact">
 			<h2 class="contact-title center">Contact</h2>
 			<div class="contact-formwrap">
 				<form id="contact-form" action="" class="contact-form">
@@ -133,5 +133,17 @@
 			<p class="ftr-img"><img src="img/logofoot.png" alt="Footer Logo"></p>
 		</footer>
 		<!--/FOOTER-->
+		
+		<!--JS-->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script>
+			var btn = $("#mail");
+			var contact = $("#contact");
+			
+			btn.on("click", function() {
+				$('html, body').animate({scrollTop: contact.offset().top}, 1000);
+			});
+			
+		</script>
 	</body>
 </html>
