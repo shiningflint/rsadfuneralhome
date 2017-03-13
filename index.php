@@ -117,12 +117,22 @@
 		<div id="contact" class="contact">
 			<h2 class="contact-title center">Contact</h2>
 			<div class="contact-formwrap">
-				<form id="contact-form" action="" class="contact-form">
+				<form id="contact-form" action="sendmail.php" method="post" class="contact-form">
+					<?php if(isset($_GET['err']) && $_GET['err'] == 1): ?>
+					<p style="color:#f7bbbb;">Please make sure the email address and the message is not empty.</p>
+					<?php endif; ?>
+					<?php if(isset($_GET['err']) && $_GET['err'] == 2): ?>
+					<p style="color:#f7bbbb;">Please make sure the proper email address format is entered.</p>
+					<?php endif; ?>
+					<p><input name="name" id="name" type="text" placeholder="Your Name"></p>
 					<p><input name="email" id="email" type="text" placeholder="Your Email"></p>
-					<p><textarea name="mcontent" id="mcontent" placeholder="What can we help you?" cols="30" rows="10"></textarea></p>
+					<p><textarea name="mcontent" id="mcontent" placeholder="How can we help you?" cols="30" rows="10"></textarea></p>
 					<p>
 						<button id="send" type="submit" class="send">Send</button>
 					</p>
+					<?php if(isset($_GET['err']) && $_GET['err'] == 3): ?>
+					<p style="color:white;">Your mail has been sent, thank you!</p>
+					<?php endif; ?>
 				</form>
 			</div>
 		</div>

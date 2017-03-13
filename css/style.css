@@ -386,6 +386,9 @@ body {
     max-width: 500px;
     margin: 0 auto; }
 
+  .contact-title {
+    margin-bottom: 16px; }
+
   .contact-form input[type="text"] {
     padding: 8px; }
   .contact-form textarea {
