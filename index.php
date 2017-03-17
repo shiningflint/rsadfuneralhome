@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="RSAD Funeral Home Denpasar Bali">
+		<meta name="description" content="Welcome to RSAD funeral home. Our funeral home is based in Denpasar, Bali. We provide funeral services, emergency transportation, and various types of coffins.">
 		<meta name="keywords" content="funeral home, rsad, denpasar, bali">
 		<meta name="author" content="Adam Christopher Backlas Widjaja">
 		<title>RSAD Funeral Home Denpasar Bali</title>
@@ -31,7 +31,7 @@
 					<div class="top-info-pwrap">
 						<div class="top-info-p">
 							<p>Tel.</p>
-							<p><a href="tel:+623617431626">(+62361)743-1626</a></p>
+							<p><a href="tel:+628113990430">+62811-399-0430</a></p>
 						</div><!--
 				 --><div class="top-info-p">
 							<p>Mobile</p>
@@ -113,7 +113,7 @@
 					<p class="acs-addr">PB. Sudirman Rd. No.1<br>Denpasar - Bali</p>
 					<div class="acs-tel">
 						<p>Tel.</p>
-						<p><a href="tel:+623617431626">(+62361)743-1626</a></p>
+						<p><a href="tel:+628113990430">+62811-399-0430</a></p>
 						<p class="acs-tel-mt">HP</p>
 						<p><a href="tel:+628123882386">+6281-2388-2386</a></p>
 						<p class="acs-tel-mt">Fax</p>
