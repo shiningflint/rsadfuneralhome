@@ -2,10 +2,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Welcome to RSAD funeral home. Our funeral home is based in Denpasar, Bali. We provide funeral services, emergency transportation, and various types of coffins.">
+		<meta name="description" content="Welcome to RSAD funeral home Bali. Our funeral home is based in Denpasar, Bali. We provide funeral services, emergency transportation, and various types of coffins.">
 		<meta name="keywords" content="funeral home, rsad, denpasar, bali">
 		<meta name="author" content="Adam Christopher Backlas Widjaja">
-		<title>RSAD Funeral Home Denpasar Bali</title>
+		<title>Bali Funeral Home Denpasar Bali</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -26,6 +26,7 @@
 			<div class="top-screen"></div>
 			<div class="top-content">
 				<p class="top-logo center"><img src="img/logo.png" alt="Rumah Duka RSAD"></p>
+				<h1 class="topmessage">Welcome to RSAD funeral home Bali</h1>
 				<div class="top-info center">
 					<p class="top-info-addr">PB. Sudirman Rd. No.1<br>Denpasar - Bali</p>
 					<div class="top-info-pwrap">
@@ -37,20 +38,16 @@
 							<p>Mobile</p>
 							<p><a href="tel:+628123882386">+6281-2388-2386</a></p>
 						</div><!--
-				 --><div class="top-info-p fax">
-							<p>FAX</p>
-							<p><a href="tel:+62361739382">(+62361)739-382</a></p>
-						</div>
+				 --><div class="top-info-p"><p>Mail us</p><button id="mail" class="mail"><img src="img/mail_icon.png" alt="mail">&nbsp;Contact</button></div>
 					</div>
 				</div>
-				<div class="dbtn center"><button id="mail" class="mail"><img src="img/mail_icon.png" alt="mail">&nbsp;Contact</button></div>
 			</div>
 		</div>
 		<!--/TOP AREA-->
 		
 		<!--LAYANAN-->
 		<div class="lyn">
-			<h1 class="lyn-title">Services</h1>
+			<h2 class="lyn-title">Services</h2>
 			<div class="lynwrap">
 				<div class="lyn-item">
 					<p class="lyn-img"><a><img src="img/lyn1.jpg" alt="Rumah Duka"></a></p>
@@ -116,8 +113,6 @@
 						<p><a href="tel:+628113990430">+62811-399-0430</a></p>
 						<p class="acs-tel-mt">HP</p>
 						<p><a href="tel:+628123882386">+6281-2388-2386</a></p>
-						<p class="acs-tel-mt">Fax</p>
-						<p>(+62361)739-382</p>
 					</div>
 				</div>
 			</div>

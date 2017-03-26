@@ -79,6 +79,7 @@ body {
 .mail {
 	display: inline-block;
 	vertical-align: middle;
+	width: 100%;
 	padding: 2% 4%;
 	background-color: white;
 	border: 1px solid white;
@@ -90,6 +91,14 @@ body {
 		vertical-align: middle;
 		width: 30px;
 	}
+}
+
+/*TOP MESSAGE*/
+.topmessage {
+	text-align: center;
+	color: white;
+	font-size: 1.618em;
+	margin: 8% 0;
 }
 
 /*LAYANAN*/

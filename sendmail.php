@@ -14,11 +14,12 @@ $body = "<p>This is an inquiry mail from rsadfuneralhome.com</p>
 <p>End of message</p>
 ";
 $headers = "From: RSAD Funeral Home <no-reply@rsadfuneralhome.com> \r\n";
-$headers .= "Reply-To: ".$email;
-$headers .= "X-Mailer: PHP/" . phpversion();
-$headers .= "X-Priority: 1\n"; // Urgent message!
+$headers .= "Reply-To: ".$email."\r\n";
+$headers .= "Subject: ".$subject."\r\n";
+$headers .= "X-Mailer: PHP/".phpversion()."\r\n";
+$headers .= "X-Priority: 1\r\n"; // Urgent message!
 $headers .= "MIME-Version: 1.0\r\n";
-$headers .= "Content-type: text/html; charset=iso-8859-1\n";
+$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
 if($email == '' || $content == '') {
 	$err = 1;
