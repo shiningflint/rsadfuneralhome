@@ -3,7 +3,7 @@ $err = null;
 $email = $_POST['email'];
 $content = $_POST['mcontent'];
 $name = $_POST['name'];
-$to = "adam.keristoper@gmail.com";
+$to = "rusminw@hotmail.com";
 $subject = "Mail inquiry from rsadfuneralhome.com";
 $body = "<p>This is an inquiry mail from rsadfuneralhome.com</p>
 <p>Sender's email address: ".$email."</p>
