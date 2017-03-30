@@ -5,7 +5,7 @@
 		<meta name="description" content="Welcome to RSAD funeral home Bali. Our funeral home is based in Denpasar, Bali. We provide funeral services, emergency transportation, and various types of coffins.">
 		<meta name="keywords" content="funeral home, rsad, denpasar, bali">
 		<meta name="author" content="Adam Christopher Backlas Widjaja">
-		<title>Bali Funeral Home Denpasar Bali</title>
+		<title>Bali Funeral Home RSAD Denpasar</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
