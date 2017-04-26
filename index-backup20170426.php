@@ -38,7 +38,7 @@
 							<p>Mobile</p>
 							<p><a href="tel:+628123882386">+6281-2388-2386</a></p>
 						</div><!--
-				 --><div class="top-info-p"><p>Mail us</p><a href="mailto:funeralhomebali@gmail.com?subject=RSAD Funeral Home Mail Inquiry" id="mail" class="mail"><img src="img/mail_icon.png" alt="mail">&nbsp;Contact</a></div>
+				 --><div class="top-info-p"><p>Mail us</p><button id="mail" class="mail"><img src="img/mail_icon.png" alt="mail">&nbsp;Contact</button></div>
 					</div>
 				</div>
 			</div>
@@ -119,10 +119,47 @@
 		</div>
 		<!--/AKSES-->
 
+		<!--KONTAK-->
+		<div id="contact" class="contact">
+			<h2 class="contact-title center">Contact</h2>
+			<div class="contact-formwrap">
+				<form id="contact-form" action="sendmail.php" method="post" class="contact-form">
+					<?php if(isset($_GET['err']) && $_GET['err'] == 1): ?>
+					<p style="color:#f7bbbb;">Please make sure the email address and the message is not empty.</p>
+					<?php endif; ?>
+					<?php if(isset($_GET['err']) && $_GET['err'] == 2): ?>
+					<p style="color:#f7bbbb;">Please make sure the proper email address format is entered.</p>
+					<?php endif; ?>
+					<p><input name="name" id="name" type="text" placeholder="Your Name"></p>
+					<p><input name="email" id="email" type="text" placeholder="Your Email"></p>
+					<p><textarea name="mcontent" id="mcontent" placeholder="How can we help you?" cols="30" rows="10"></textarea></p>
+					<p>
+						<button id="send" type="submit" class="send">Send</button>
+					</p>
+					<?php if(isset($_GET['err']) && $_GET['err'] == 3): ?>
+					<p style="color:white;">Your mail has been sent, thank you!</p>
+					<?php endif; ?>
+				</form>
+			</div>
+		</div>
+		<!--/KONTAK-->
+
 		<!--FOOTER-->
 		<footer class="ftr">
 			<p class="ftr-img"><img src="img/logofoot.png" alt="Footer Logo"></p>
 		</footer>
 		<!--/FOOTER-->
+
+		<!--JS-->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script>
+			var btn = $("#mail");
+			var contact = $("#contact");
+
+			btn.on("click", function() {
+				$('html, body').animate({scrollTop: contact.offset().top}, 1000);
+			});
+
+		</script>
 	</body>
 </html>
