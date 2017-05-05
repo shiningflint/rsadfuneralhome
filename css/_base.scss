@@ -10,6 +10,10 @@ body {
 	line-height: 1.4;
 	font-size: 16px;
 }
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
 
 /*UTILITIES*/
 .center {
@@ -112,6 +116,9 @@ body {
 	text-align: center;
 	margin-bottom: 8%;
 }
+.lyn-title--coffin {
+  margin-top: 12%;
+}
 .lyn-item {
 	border-radius: 6px;
 	overflow: hidden;
@@ -140,6 +147,9 @@ body {
 		font-size: 1.414em;
 	}
 }
+.coffin-item {
+  margin-bottom: 4%;
+}
 
 /*LAINNYA*/
 .lnn {
@@ -164,7 +174,7 @@ body {
 
 /*AKSES*/
 .acs {
-	
+
 	padding: 12% 4%;
 	color: #545454;
 }

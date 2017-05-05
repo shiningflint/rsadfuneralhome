@@ -60,10 +60,20 @@
 		 --><div class="lyn-item">
 					<p class="lyn-img"><a><img src="img/lyn3.jpg" alt="Transportasi"></a></p>
 					<p class="lyn-desc"><a>Transportation</a></p>
+				</div>
+			</div>
+			<h2 class="lyn-title lyn-title--coffin">Coffins</h2>
+			<div class="section section--coffin-top">
+				<div class="coffin-item coffin-item--top">
+					<img src="img/peti1.png" alt="coffin1" class="coffin-item__img">
+				</div>
+			</div>
+			<div class="section">
+				<div class="coffin-item coffin-item--1">
+					<img src="img/peti2.png" alt="coffin2" class="coffin-item__img">
 				</div><!--
-		 --><div class="lyn-item">
-					<p class="lyn-img"><a><img src="img/lyn4.jpg" alt="Peti Jenazah"></a></p>
-					<p class="lyn-desc"><a>Coffins</a></p>
+		 --><div class="coffin-item coffin-item--2">
+					<img src="img/peti3.png" alt="coffin3" class="coffin-item__img">
 				</div>
 			</div>
 		</div>

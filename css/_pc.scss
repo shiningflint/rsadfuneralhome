@@ -43,18 +43,26 @@
 		padding: 8px 16px;
 		width: auto;
 	}
-	
+
+	.section {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
 	/*TOP MESSAGE*/
 	.topmessage {
 		margin: 32px 0;
 	}
-	
+
 	/*LAYANAN*/
 	.lyn {
-		padding: 48px 0 16px 0;
+		padding: 48px 0 32px 0;
 	}
 	.lyn-title {
 		margin-bottom: 32px;
+	}
+	.lyn-title--coffin {
+		margin-top: 48px;
 	}
 	.lynwrap{
 		max-width: 960px;
@@ -64,16 +72,31 @@
 	.lyn-item {
 		display: inline-block;
 		vertical-align: top;
-		width: 36%;
+		width: 30%;
 		margin-bottom: 32px;
-		&:nth-child(odd){
-			margin-right: 16px;
-		}
-		&:nth-child(even){
-			margin-left: 16px;
+		margin-right: 5%;
+		&:last-child {
+			margin-right: 0;
 		}
 	}
-	
+	.coffin-item {text-align: center;}
+	.coffin-item--1,
+	.coffin-item--2 {
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+	}
+	.coffin-item--1 {
+		padding-right: 16px;
+	}
+	.coffin-item--2 {
+		padding-left: 16px;
+	}
+	.section--coffin-top {
+		background-color: white;
+		margin-bottom: 32px;
+	}
+
 	/*LAINNYA*/
 	.lnn {
 		padding: 32px 0;
@@ -94,7 +117,7 @@
 		width: 20%;
 		padding: 0 16px;
 	}
-	
+
 	/*AKSES*/
 	.acs {
 		padding: 48px 16px;
@@ -131,7 +154,7 @@
 			padding: 8px 16px;
 		}
 	}
-	
+
 	/*CONTACT*/
 	.contact-formwrap {
 		max-width: 500px;
@@ -151,7 +174,7 @@
 			margin-bottom: 16px;
 		}
 	}
-	
+
 	/*FOOTER*/
 	.ftr {
 		padding: 32px 16px;
