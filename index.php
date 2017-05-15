@@ -113,8 +113,8 @@
 			<h2 class="acs-title">Access</h2>
 			<div class="acs-content">
 				<div class="acs-left">
-					<div class="acs-mapwrap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2952745728094!2d115.21636915050016!3d-8.663443090527243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409134b2ea07%3A0x16d21e068265779b!2sJl.+P.B.+Sudirman+No.1%2C+Dauh+Puri%2C+Denpasar+Bar.%2C+Kota+Denpasar%2C+Bali+80232%2C+Indonesia!5e0!3m2!1sen!2sjp!4v1488100766981" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-					<p class="acs-mapbtn"><a href="https://www.google.com/maps/place/Jl.+P.B.+Sudirman+No.1,+Dauh+Puri,+Denpasar+Bar.,+Kota+Denpasar,+Bali+80232,+Indonesia/@-8.669876,115.211096,13z/data=!4m5!3m4!1s0x2dd2409134b2ea07:0x16d21e068265779b!8m2!3d-8.6634484!4d115.2185632?hl=en-US" target="_blank">Open in Google Maps</a></p>
+					<div class="acs-mapwrap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2996389894815!2d115.21714211482009!3d-8.663026993775274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc77b5a02f283d610!2sRSAD+Funeral+Home!5e0!3m2!1sen!2sjp!4v1494849765453" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+					<p class="acs-mapbtn"><a href="https://www.google.co.jp/maps/place/RSAD+Funeral+Home/@-8.663027,115.2171421,17z/data=!4m8!1m2!2m1!1srsad+funeral+home+denpasar!3m4!1s0x0:0xc77b5a02f283d610!8m2!3d-8.6628773!4d115.2203648" target="_blank">Open in Google Maps</a></p>
 				</div><!--
 		 --><div class="acs-right">
 					<p class="acs-addr">PB. Sudirman Rd. No.1<br>Denpasar - Bali</p>
